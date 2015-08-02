@@ -1,3 +1,2 @@
-module.exports = function () {
-  return 'Hello, world';
-};
+var migrations = require('./lib');
+module.exports = migrations;
