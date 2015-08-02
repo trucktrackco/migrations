@@ -16,7 +16,14 @@
   "bugs": {
     "url": "https://github.com//migrations/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "async": "^1.4.0",
+    "knex": "^0.8.6",
+    "lodash": "^3.10.0",
+    "moment": "^2.10.6",
+    "q": "^1.4.1",
+    "trucktrack-logging": "latest"
+  },
   "devDependencies": {
     "chai": "~1.10.0",
     "grunt-contrib-jshint": "~0.6.4",
