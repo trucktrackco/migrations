@@ -32,7 +32,7 @@ module.exports = function (grunt) {
     },
     watch: {
       js: {
-        files: ['**/*.js', '!node_modules/**/*.js'],
+        files: ['**/*.js', '!node_modules/**/*.js', 'package.json'],
         tasks: ['default'],
         options: {
           nospawn: true
